@@ -15,9 +15,7 @@ Imágenes subidas por el usuario
 Captura desde cámara web
 Video en tiempo real
 
-<div align="center">
-  <img src="H2.png" alt="System Overview" width="85%">
-</div>
+
 📦 Requisitos
 Asegúrate de tener instaladas las siguientes librerías:
 
