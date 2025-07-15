@@ -1,0 +1,12 @@
+<input type="file" id="image" accept="image/*">
+<button onclick="predict()">Predecir</button>
+<script>
+async function predict() {
+    const img = document.getElementById('image').files[0];
+    const formData = new FormData();
+    formData.append('image', img);
+    const response = await fetch('/predict', { method: 'POST', body: formData });
+    const result = await response.json();
+    alert(`Predicción: ${result.class}`);
+}
+</script>
