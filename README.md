@@ -34,7 +34,7 @@ Un conjunto de imágenes de ejemplo organizadas en carpetas según la letra (asl
 
 
 <div align="center">
-  <img src="H6.png" alt="System Overview" width="85%">
+  <img src="H1.png" alt="System Overview" width="85%">
 </div>
 
 American_Sign_Language /
